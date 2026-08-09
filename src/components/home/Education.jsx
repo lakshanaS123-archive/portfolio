@@ -16,7 +16,7 @@ const educationData = [
   },
 
   {
-  title: "RJ Matriculation higheer secondary school",
+  title: "RJ Matriculation higher secondary school",
   subtitle: "Higher Secondary School",
   duration: "2022 - 2024",
   description:
@@ -25,7 +25,7 @@ const educationData = [
 },
 
 {
-  title: "RJ Matriculation higheer secondary school",
+  title: "RJ Matriculation higher secondary school",
   subtitle: "High School",
   duration: "2020 - 2022",
   description:

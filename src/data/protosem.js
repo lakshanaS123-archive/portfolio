@@ -99,31 +99,58 @@ export const protosemJournal = [
   },
 
   {
-    week: 3,
-    date: "03 August 2026 — Ongoing",
-    title: "Week 3 - In Progress",
-    status: "In Progress",
+  week: 3,
+  date: "03 August 2026 – 07 August 2026",
+  title: "Week 3 – Problem Solving, Prototyping & Innovation",
+  status: "Completed",
 
-    overview:
-      "Activities for Week 3 are currently ongoing and will be documented upon completion.",
+  overview:
+    "Week 3 focused on exploring innovation through expert sessions, algorithmic problem solving, creative prototyping, and hands-on application development. The week covered frugal innovation, algorithm and flowchart fundamentals, Scratch, Python basics, MIT App Inventor, design thinking, and the development of a Smart Attendance System for Forge.",
 
-    tasksCompleted: [],
+  tasksCompleted: [
+    "Attended a session by Prof. Mukesh Sud on frugal innovation and explored how constraints can encourage creative and practical solutions.",
+    "Worked on algorithm basics and created flowcharts for different problem statements as part of team-based problem solving.",
+    "Explored Scratch and experimented with recreating scenes while understanding the available tools and programming blocks.",
+    "Practiced Python basics and worked on simple programming problems.",
+    "Explored MIT App Inventor and its basic components for mobile application development.",
+    "Analyzed problem statements and developed a prototype for the Smart Attendance System for Forge.",
+    "Attended a design thinking session and learned about approaching problems from a user-centric perspective.",
+    "Attended an expert session handled by Ms. Meera, VP.",
+    "Updated the portfolio and prepared the Week 3 presentation."
+  ],
 
-    skillsLearned: [],
+  skillsLearned: [
+    "Algorithmic Thinking",
+    "Flowchart Design",
+    "Problem Solving",
+    "Scratch Programming",
+    "Python Basics",
+    "MIT App Inventor",
+    "Mobile App Prototyping",
+    "Design Thinking",
+    "Frugal Innovation",
+    "User-Centric Thinking"
+  ],
 
-    technologies: [],
+  technologies: [
+    "Scratch",
+    "Python",
+    "MIT App Inventor"
+  ],
 
-    challenges: "",
+  challenges:
+    "The main challenge was converting problem statements and ideas into clear logical solutions while working within practical constraints. Another challenge was exploring unfamiliar tools such as Scratch and MIT App Inventor and understanding how their visual programming environments could be used to build working prototypes.",
 
-    solution: "",
+  solution:
+    "The problems were approached by first breaking them down into smaller steps, representing the logic through algorithms and flowcharts, and then experimenting with suitable development tools. Team discussions, iterative prototyping, and hands-on exploration helped in understanding the requirements and building the Smart Attendance System prototype.",
 
-    github: "",
+  github: "",
 
-    demo: "",
+  demo: "",
 
-    images: [],
+  images: [],
 
-    notes:
-      "This section will be updated at the end of Week 3."
-  }
+  notes:
+    "Week 3 combined technical learning with creative problem solving. The week progressed from understanding algorithms and innovation concepts to experimenting with visual programming and finally applying the learning to a practical Smart Attendance System prototype for Forge."
+ }
 ];
