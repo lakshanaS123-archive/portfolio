@@ -11,6 +11,7 @@ import {
 
 import Button from "../common/Button.jsx";
 import { profile } from "../../data/profile";
+import profPhoto from "../../assets/prof_photo.jpeg";
 
 const Hero = () => {
   return (
@@ -22,11 +23,35 @@ const Hero = () => {
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-600/25 rounded-full blur-[120px] animate-pulse" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-600/25 rounded-full blur-[120px] animate-pulse" />
+
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.05)_1px,transparent_0)] bg-[size:32px_32px]" />
       </div>
 
-      <div className="max-w-5xl mx-auto text-center pt-24 md:pt-0">
+      {/* Main Hero Content */}
+      <div className="max-w-5xl mx-auto text-center pt-40 md:pt-36 pb-24">
 
+        {/* Profile Photo */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          className="flex justify-center mb-8"
+        >
+          <div className="relative">
+
+            {/* Glow */}
+            <div className="absolute inset-0 rounded-full bg-purple-500/30 blur-2xl scale-110" />
+
+            {/* Photo */}
+            <img
+              src={profPhoto}
+              alt="Lakshana S"
+              className="relative w-36 h-36 md:w-44 md:h-44 object-cover rounded-full border-4 border-purple-400/40 shadow-[0_0_35px_rgba(168,85,247,0.35)]"
+            />
+          </div>
+        </motion.div>
+
+        {/* Greeting */}
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -36,6 +61,7 @@ const Hero = () => {
           👋 Hello, I'm
         </motion.p>
 
+        {/* Name */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -47,6 +73,7 @@ const Hero = () => {
           </span>
         </motion.h1>
 
+        {/* Tagline */}
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -56,6 +83,7 @@ const Hero = () => {
           {profile.tagline}
         </motion.h2>
 
+        {/* Bio */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -65,6 +93,7 @@ const Hero = () => {
           {profile.bio}
         </motion.p>
 
+        {/* Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -98,9 +127,9 @@ const Hero = () => {
             LinkedIn
           </Button>
         </motion.div>
-
       </div>
 
+      {/* Scroll indicator */}
       <motion.div
         animate={{ y: [0, 10, 0] }}
         transition={{
