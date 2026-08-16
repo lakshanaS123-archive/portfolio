@@ -152,5 +152,50 @@ export const protosemJournal = [
 
   notes:
     "Week 3 combined technical learning with creative problem solving. The week progressed from understanding algorithms and innovation concepts to experimenting with visual programming and finally applying the learning to a practical Smart Attendance System prototype for Forge."
- }
+ },
+ {
+  week: 4,
+  date: "10 August 2026 – 14 August 2026",
+  title: "Week 4 – Electrical Components exploration and mechanical designing",
+  status: "Completed",
+
+  overview:
+    "Focused on electrical components and basics, development of practical knowledge in  electricals, Fusion 360 basics exploration and expert sessions during ProtoSem.",
+
+  tasksCompleted: [
+    "Worked on practical electrical components and basic knowledge through tinkercad software.",
+    "Applied concepts learned during previous ProtoSem sessions to ongoing work.",
+    "Explored development tools and approaches for Electrical components to refresh the basics.",
+    "Worked collaboratively on Fusion 360 and discussed various models and outcomes for engineeering models and paper planes.",
+    "Updated and refined portfolio documentation based on the week's activities."
+  ],
+
+  skillsLearned: [
+    "Problem solving",
+    "Design thinking",
+    "Mechanical component development",
+    "Team collaboration",
+    "Technical communication"
+  ],
+
+  technologies: [
+    "Tinkercad",
+    "Fusion 360",
+    "GitHub"
+  ],
+
+  challenges:
+    "Understanding how to convert ideas and problem statements into practical and structured solutions through design thinking.",
+
+  solution:
+    "Approached the problems through design thinking, discussed possible tools and technologies with peers and mentors, and challenged myself with new tools and software.",
+
+  github: "",
+  demo: "",
+
+  images: [],
+
+  notes:
+    "Week 4 activities and project progress were documented as part of the ProtoSem internship."
+}
 ];
